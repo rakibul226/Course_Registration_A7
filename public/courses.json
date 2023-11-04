@@ -4,8 +4,8 @@
         "id": 1,
         "course_title": "Introduction to Programming",
         "course_description": "Learn the fundamentals of programming and problem-solving .",
-        "cover_img":"https://i.ibb.co/dPx0kkM/c.jpg",
-        "price": 99.99,
+        "cover_img":"https://i.ibb.co/ygr7HDL/c.png",
+        "price": 12,
         "credit": 3
       },
       {
@@ -13,7 +13,7 @@
         "course_title": "Data Structures and Algorithms",
         "course_description": "Master essential data structures and algorithms to become.",
         "cover_img":"https://i.ibb.co/g3Gn01m/dsalgo.jpg",
-        "price": 149.99,
+        "price": 20,
         "credit": 4
       },
       {
@@ -21,7 +21,7 @@
         "course_title": "Web Development Fundamentals",
         "course_description": "Build and design websites using HTML, CSS, and JavaScript with a.",
         "cover_img": "https://i.ibb.co/j4RSpfy/web-2.jpg",
-        "price": 129.99,
+        "price": 30,
         "credit": 3
       },
       {
@@ -29,7 +29,7 @@
         "course_title": "Database Management Systems",
         "course_description": "Explore the principles and practices of database design, ",
         "cover_img": "https://i.ibb.co/F5r2ncf/db.jpg",
-        "price": 139.99,
+        "price": 40,
         "credit": 3
       },
       {
@@ -37,15 +37,15 @@
         "course_title": "Artificial Intelligence",
         "course_description": "Delve into the world of AI and ML, including neural networks.",
         "cover_img": "https://i.ibb.co/M2HNGKN/aii.jpg",
-        "price": 169.99,
+        "price": 50,
         "credit": 4
       },
       {
         "id": 6,
         "course_title": "Cybersecurity Fundamentals",
         "course_description": "Learn about cybersecurity threats, security measures, and best.",
-        "cover_img": "https://i.ibb.co/VgQLDjP/cyber.jpg",
-        "price": 119.99,
+        "cover_img": "https://i.ibb.co/W3P8YhH/cyber.jpg",
+        "price": 60,
         "credit": 3
       },
       {
@@ -53,7 +53,7 @@
         "course_title": "Software Engineering Principles",
         "course_description": "Study software engineering methodologies, design patterns,",
         "cover_img": "https://i.ibb.co/zZ09KHy/soft.jpg",
-        "price": 159.99,
+        "price": 70,
         "credit": 4
       },
       {
@@ -61,7 +61,7 @@
         "course_title": "Computer Networks ",
         "course_description": "Explore the fundamentals of computer networking, protocols, ",
         "cover_img": "../src/assets/image/cn.jpg",
-        "price": 129.99,
+        "price": 80,
         "credit": 3
       },
       {
@@ -69,7 +69,7 @@
         "course_title": "Cloud Computing and Virtualization",
         "course_description": "Learn about cloud infrastructure, virtualization, and cloud ",
         "cover_img": "../src/assets/image/cloud.jpg",
-        "price": 149.99,
+        "price": 90,
         "credit": 4
       }
  ]
