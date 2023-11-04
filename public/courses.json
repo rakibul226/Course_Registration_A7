@@ -4,7 +4,7 @@
         "id": 1,
         "course_title": "Introduction to Programming",
         "course_description": "Learn the fundamentals of programming and problem-solving .",
-        "cover_img":"https://i.ibb.co/wB7s8mT/c-programming.png",
+        "cover_img":"https://i.ibb.co/dPx0kkM/c.jpg",
         "price": 99.99,
         "credit": 3
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "course_title": "Data Structures and Algorithms",
         "course_description": "Master essential data structures and algorithms to become.",
-        "cover_img":"https://i.ibb.co/n8gzfsg/ds-algo.jpg",
+        "cover_img":"https://i.ibb.co/g3Gn01m/dsalgo.jpg",
         "price": 149.99,
         "credit": 4
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "course_title": "Web Development Fundamentals",
         "course_description": "Build and design websites using HTML, CSS, and JavaScript with a.",
-        "cover_img": "https://i.ibb.co/KmZ6qxS/web-dev.png",
+        "cover_img": "https://i.ibb.co/j4RSpfy/web-2.jpg",
         "price": 129.99,
         "credit": 3
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "course_title": "Database Management Systems",
         "course_description": "Explore the principles and practices of database design, ",
-        "cover_img": "https://i.ibb.co/SXpV0RB/database.png",
+        "cover_img": "https://i.ibb.co/F5r2ncf/db.jpg",
         "price": 139.99,
         "credit": 3
       },
@@ -36,7 +36,7 @@
         "id": 5,
         "course_title": "Artificial Intelligence",
         "course_description": "Delve into the world of AI and ML, including neural networks.",
-        "cover_img": "https://i.ibb.co/MZGY3Sb/ai.jpg",
+        "cover_img": "https://i.ibb.co/M2HNGKN/aii.jpg",
         "price": 169.99,
         "credit": 4
       },
@@ -52,7 +52,7 @@
         "id": 7,
         "course_title": "Software Engineering Principles",
         "course_description": "Study software engineering methodologies, design patterns,",
-        "cover_img": "../src/assets/image/soft-eng.png",
+        "cover_img": "https://i.ibb.co/zZ09KHy/soft.jpg",
         "price": 159.99,
         "credit": 4
       },
