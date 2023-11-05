@@ -4,7 +4,7 @@ import { SlBookOpen } from 'react-icons/sl';
 const Card = ({card,handleClickedCard}) => {
     const {cover_img,course_title,course_description,price,credit} = card;
     return (
-        <div className="mt-5 bg-slate-200 p-3 rounded-md">
+        <div className=" bg-slate-200 p-3 mb-4 rounded-md">
             <img className="h-36 w-72 border rounded-xl" src={cover_img} alt="" />
             <h1 className="pt-2 font-semibold">{course_title}</h1>
             <p className="font-thin pt-1 w-72 ">{course_description}</p>

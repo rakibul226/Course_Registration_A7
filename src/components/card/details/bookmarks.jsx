@@ -7,13 +7,13 @@ const Bookmarks = ({totalCrTime,totalPrice,myCourse,remaining}) => {
     // const {} =clickedCard;
     return (
         <div className="">
-            <div className="mt-5 text-xl font-bold">
+            <div className="mt-5 text-lg font-bold text-blue-500">
                 <h2>Credit Hour Remaining:{remaining}</h2>
             </div>
             <div>
                 <h2 className="text-2xl font-bold mb-2 mt-4">Course Name</h2>
                 {
-                      myCourse.map((course,idx) => <MyCourse key={idx} course={course}></MyCourse>)
+                      myCourse.map((course,idx) => <MyCourse key={idx} course={course} idx={idx}></MyCourse>)
                  }
             </div>
                 <hr />
