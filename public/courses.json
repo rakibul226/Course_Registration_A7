@@ -60,7 +60,7 @@
         "id": 8,
         "course_title": "Computer Networks ",
         "course_description": "Explore the fundamentals of computer networking, protocols, ",
-        "cover_img": "../src/assets/image/cn.jpg",
+        "cover_img": "https://i.ibb.co/6wC4x0m/cn.jpg",
         "price": 80,
         "credit": 3
       },
@@ -68,7 +68,7 @@
         "id": 9,
         "course_title": "Cloud Computing Virtualization",
         "course_description": "Learn about cloud infrastructure, virtualization, and cloud ",
-        "cover_img": "../src/assets/image/cloud.jpg",
+        "cover_img": "https://i.ibb.co/fq7vVPk/cloud.jpg",
         "price": 90,
         "credit": 4
       }
