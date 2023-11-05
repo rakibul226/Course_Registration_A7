@@ -10,7 +10,7 @@ const Bookmarks = ({totalCrTime,totalPrice,myCourse,remaining}) => {
     return (
         <div className="mx-3 lg:mx-0">
             <div className="mt-5 text-lg font-bold text-blue-500">
-                <h2>Credit Hour Remaining:{remaining}</h2>
+                <h2>Credit Hour Remaining: {remaining} hr</h2>
             </div>
             <div>
                 <h2 className="text-2xl font-bold mb-2 mt-4">Course Name</h2>

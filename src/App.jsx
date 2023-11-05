@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Cards from './components/card/cards'
 import Bookmarks from './components/card/details/bookmarks'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -22,15 +24,18 @@ function App() {
           setCrTime(totalCrTime + card.credit);              
           setTotalPrice(totalPrice + card.price)
         }
+        else{
+          toast('you have already select this course')
+        }
      } 
     else if(remaining == 0){
-      alert('Maximum credit limit reached')
+      toast('Maximum credit limit reached')
      }
     else if(remaining == 1){
-      alert('Maximum credit limit reached')
+      toast('You have already selected maximum courses in credit limit')
      }
     else if(remaining >= 1){
-      alert('You can select a 2 credit only')
+      toast('You can select a 2 credit only')
      }
   }
 
@@ -48,6 +53,7 @@ function App() {
           </div>
       </div> 
       
+      <ToastContainer />
     </div>
   )
 }
