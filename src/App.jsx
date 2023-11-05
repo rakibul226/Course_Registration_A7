@@ -41,8 +41,6 @@ function App() {
                   setCrTime(totalCrTime + card.credit);              
                   setTotalPrice(totalPrice + card.price)
                 }
- 
-
      } 
     else if(remaining == 0){
       alert('Maximum credit limit reached')
@@ -54,7 +52,7 @@ function App() {
       <div className='text-center mt-5 '>
         <h1 className='text-4xl'>Course Registration</h1>
       </div>
-      <div className='md:flex max-w-7xl mx-auto gap-3 my-9'> 
+      <div className='lg:flex max-w-7xl mx-auto gap-3 my-9'> 
           <div>
             <Cards handleClickedCard={handleClickedCard}></Cards> 
           </div>

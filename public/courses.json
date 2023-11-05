@@ -3,7 +3,7 @@
       {
         "id": 1,
         "course_title": "Introduction to Programming",
-        "course_description": "Learn the fundamentals of programming and problem-solving .",
+        "course_description": "Learn the fundamental programming and problem-solving .",
         "cover_img":"https://i.ibb.co/ygr7HDL/c.png",
         "price": 12,
         "credit": 2

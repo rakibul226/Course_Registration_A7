@@ -6,7 +6,7 @@ import TotalCrTime from "./ifno/TotalCrTime";
 const Bookmarks = ({totalCrTime,totalPrice,myCourse,remaining}) => {
     // const {} =clickedCard;
     return (
-        <div className="">
+        <div className="mx-3 lg:mx-0">
             <div className="mt-5 text-lg font-bold text-blue-500">
                 <h2>Credit Hour Remaining:{remaining}</h2>
             </div>
