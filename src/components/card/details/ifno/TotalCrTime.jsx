@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const TotalCrTime = ({totalCrTime}) => {
     return (
@@ -8,4 +8,7 @@ const TotalCrTime = ({totalCrTime}) => {
     );
 };
 
+TotalCrTime.propTypes = {
+    totalCrTime: PropTypes.number.isRequired
+  };
 export default TotalCrTime;

@@ -1,5 +1,7 @@
 import { MdOutlineAttachMoney } from 'react-icons/md';
 import { SlBookOpen } from 'react-icons/sl';
+import PropTypes from 'prop-types';
+
 
 const Card = ({card,handleClickedCard}) => {
     const {cover_img,course_title,course_description,price,credit} = card;
@@ -26,5 +28,10 @@ const Card = ({card,handleClickedCard}) => {
         </div>
     );
 };
+
+Card.propTypes = {
+    card: PropTypes.object.isRequired,
+    handleClickedCard: PropTypes.func.isRequired,
+  };
 
 export default Card;

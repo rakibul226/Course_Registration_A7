@@ -1,6 +1,8 @@
 import TotalPrice from "./TotalPrice";
 import MyCourse from "./ifno/MyCourse";
 import TotalCrTime from "./ifno/TotalCrTime";
+import PropTypes from 'prop-types';
+
 
 
 const Bookmarks = ({totalCrTime,totalPrice,myCourse,remaining}) => {
@@ -23,6 +25,13 @@ const Bookmarks = ({totalCrTime,totalPrice,myCourse,remaining}) => {
         </div>
     );
 };
+
+Bookmarks.propTypes = {
+    totalCrTime: PropTypes.number.isRequired,
+    totalPrice: PropTypes.number.isRequired,
+    myCourse: PropTypes.array.isRequired,
+    remaining: PropTypes.number.isRequired
+  };
 
 export default Bookmarks;
 

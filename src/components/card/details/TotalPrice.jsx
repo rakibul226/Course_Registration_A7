@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 
 const TotalPrice = ({totalPrice}) => {
     return (
@@ -6,5 +8,9 @@ const TotalPrice = ({totalPrice}) => {
         </div>
     );
 };
+
+TotalPrice.propTypes = {
+    totalPrice: PropTypes.number.isRequired
+  };
 
 export default TotalPrice;

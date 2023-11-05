@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 
 const MyCourse = ({course,idx}) => {
@@ -13,5 +14,8 @@ const MyCourse = ({course,idx}) => {
         </div>
     );
 };
-
+MyCourse.propTypes = {
+    course: PropTypes.object.isRequired,
+    idx: PropTypes.number.isRequired,
+  };
 export default MyCourse;

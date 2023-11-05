@@ -15,36 +15,23 @@ function App() {
   const handleClickedCard = (card) =>{
 
     if((remaining-card.credit)>= 0){
+        if (!(myCourse.some((item) => item.id === card.id))) {
 
-              // let exist = myCourse.filter((check) => check.id !== card.id)
-              // if(exist){}
-
-              // if(myCourse.find((check) => check.id !== card.id)){
-              //       setMyCourse([...myCourse, card]);
-              //             setRemaining(remaining-card.credit)
-              //             setCrTime(totalCrTime + card.credit);              
-              //             setTotalPrice(totalPrice + card.price)
-              // }
-
-              // if(!(myCourse.filter((check) => check.id !== card.id))){
-              //       setMyCourse([...myCourse, card]);
-              //             setRemaining(remaining-card.credit)
-              //             setCrTime(totalCrTime + card.credit);              
-              //             setTotalPrice(totalPrice + card.price)
-              // }
-            
-
-                if (!(myCourse.some((item) => item.id === card.id))) {
-
-                  setMyCourse([...myCourse, card]);
-                  setRemaining(remaining-card.credit)
-                  setCrTime(totalCrTime + card.credit);              
-                  setTotalPrice(totalPrice + card.price)
-                }
+          setMyCourse([...myCourse, card]);
+          setRemaining(remaining-card.credit)
+          setCrTime(totalCrTime + card.credit);              
+          setTotalPrice(totalPrice + card.price)
+        }
      } 
     else if(remaining == 0){
       alert('Maximum credit limit reached')
-     }  
+     }
+    else if(remaining == 1){
+      alert('Maximum credit limit reached')
+     }
+    else if(remaining >= 1){
+      alert('You can select a 2 credit only')
+     }
   }
 
   return (

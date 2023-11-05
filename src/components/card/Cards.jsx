@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Card from "./card";
+import PropTypes from 'prop-types';
+
 
 const Cards = ({handleClickedCard}) => {
 
@@ -22,5 +24,9 @@ const Cards = ({handleClickedCard}) => {
         </div>
     );
 };
+
+Cards.propTypes = {
+    handleClickedCard: PropTypes.func.isRequired
+  };
 
 export default Cards;
